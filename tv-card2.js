@@ -25,6 +25,7 @@ mdiVolumeMinus,
 mdiVolumePlus,
 mdiNetflix,
 mdiYoutube,
+mdiInformation,
 } from "https://unpkg.com/@mdi/js@6.4.95/mdi.js?module"
 
 // Taken from mdi v5.9.55
@@ -188,7 +189,7 @@ class TVCardServices2 extends LitElement {
                             .action="${"info"}"
                             @click="${this.handleActionClick}"
                             icon="mdi:television-guide"
-                            .path=${mdiTelevisionGuide}
+                            .path=${mdiInformation}
                             title="Guide"
                           ></ha-icon-button>
                         `
